@@ -8,4 +8,4 @@ if exists(":CompilerSet") != 2
 endif
 
 CompilerSet errorformat=%f:%l:%c:\ %t:\ %m,%f:%l:\ %t:\ %m
-CompilerSet makeprg=mix\ credo\ suggest\ --format=flycheck
+CompilerSet makeprg=mix\ credo\ suggest\ --strict\ --all\  --format=flycheck
